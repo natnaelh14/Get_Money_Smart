@@ -891,3 +891,46 @@ a:hover {
     font-size: 5px;
   }
 }
+
+.button-hover-account {
+  border: 3px solid #cfab88;
+  background-color: #eddbcd;
+  color: black;
+  letter-spacing: 0.07rem;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.button-hover-account span {
+  transition: all 0.2s ease-in-out;
+}
+.button-hover-account .fa {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: -20px;
+  transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
+}
+
+.button-hover-account:hover {
+  border-color: #cfab88;
+  background-color: #fff7f0;
+  transition: border-color 0.2s;
+  color: black;
+}
+
+.button-hover-account:hover span {
+  margin-right: 20px;
+  color: black;
+}
+
+.button-hover-account:hover .fa {
+  right: 12px;
+}
+
+.button-hover-account:focus {
+  background-color: #ecdbcd;
+  color: black;
+}
