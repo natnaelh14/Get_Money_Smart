@@ -3,11 +3,15 @@
 }
 
 body {
-  /* background-color: #fff7f0; */
   position: relative;
   min-height: 100%;
   padding-bottom: 10rem;
   font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.registerh4 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .topbar-responsive {
@@ -22,9 +26,9 @@ body {
 }
 
 .register-button-container {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .topbar-responsive .topbar-responsive-logo {
   color: #000000;
@@ -34,22 +38,9 @@ body {
   margin-top: 20px;
 }
 
-/* .topbar-responsive-logo {
-  font-size: 30px;
-} */
-
-/* .topbar-responsive .menu {
-  background: #fff;
-} */
-
 .topbar-responsive .menu li:last-of-type {
   margin-right: 0;
 }
-
-/* .topbar-responsive .menu a {
-  color: #ffffff;
-  transition: color 0.15s ease-in;
-} */
 
 .topbar-responsive .menu a:hover {
   color: #8f3124;
@@ -192,25 +183,11 @@ footer #footer-two p {
   color: #8a8a8a;
 }
 
-/* --------- Credit transaction history modal --------*/
-/* #historyModal {
-  font-family: inherit;
-} */
-
 /*-------Educational Modals----------*/
 .checkPic {
   width: 100%;
   height: auto;
 }
-
-/* #checkModal,
-#checkingModal,
-#savingModal,
-#creditModal,
-#historyModal {
-  font-family: inherit;
-  background-color: #e1bdad;
-} */
 
 .modalMain {
   background-color: #ecdbcd;
@@ -237,19 +214,10 @@ footer #footer-two p {
   margin-bottom: 1rem;
 }
 
-/* .reg-form .form-icons .input-group-label {
-  background-color: #ffb8ad;
-  border-color: #b6b9bb;
-} */
-
 .input-group-label {
   background-color: #ccaa89;
   border-color: #b6b9bb;
 }
-
-/* .reg-form .form-icons .input-group-field {
-  border-color: var(--green);
-} */
 
 .reg-form .form-icons .fa {
   color: white;
@@ -267,11 +235,6 @@ footer #footer-two p {
   display: flex;
   justify-content: center;
 }
-
-/* .hero-image {
-  display: flex;
-  flex-direction: column;
-} */
 
 @media screen and (max-width: 1400px) {
   .hero-image {
@@ -315,24 +278,15 @@ footer #footer-two p {
     display: flex;
     flex-direction: column;
   }
-  /* .newsletter-subscribe button {
-    display: flex;
-    justify-content: center;
-  } */
-  /* .topbar-responsive-button {
-    color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 5000px;
-    transition: color 0.15s ease-in, border-color 0.15s ease-in;
-    display: flex;
-    justify-content: center;
-  } */
-  .top-bar, .top-bar ul {
+
+  .top-bar,
+  .top-bar ul {
     background-color: transparent;
   }
 }
 
-.top-bar, .top-bar ul {
+.top-bar,
+.top-bar ul {
   background-color: transparent;
 }
 
@@ -352,11 +306,6 @@ footer #footer-two p {
   margin-bottom: 1rem;
 }
 
-/* .log-form .form-icons .input-group-label {
-  background-color: #ffb8ad;
-  border-color: #b6b9bb;
-} */
-
 .log-form .form-icons .input-group-field {
   border-color: #cfab88;
 }
@@ -365,28 +314,6 @@ footer #footer-two p {
   color: rgb(0, 0, 0);
   width: 1rem;
 }
-
-/*--------Tooltips--------*/
-/* .welcome {
-  margin-top: 20px;
-  margin-bottom: -55px;
-  display: block;
-  text-align: center;
-  width: 100%;
-  border: rgba(0, 0, 0, 0) 2px solid;
-} */
-
-/* .welcome h2 {
-  background-color: var(--green);
-  width: 25%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  color: white;
-  padding: 5px;
-  border: 2px solid white;
-  font-size: 28px;
-} */
 
 a {
   color: inherit;
@@ -519,27 +446,18 @@ button:focus,
   text-transform: capitalize;
   display: flex;
   justify-content: center;
+  margin-left: 15px;
 }
 
 #greeting span {
   background-color: #ecdbcd;
   padding: 10px;
   box-shadow: 3px 3px 20px rgba(154, 148, 148, 0.8);
-  /* border: 5px #cfab87 solid; */
 }
 
 /*  Transfer/charge/deposit forms */
 .closebtn {
   float: right;
-}
-
-.transfer,
-.deposit {
-  margin-top: 3.5%;
-}
-
-.charge {
-  margin-top: 4.5%;
 }
 
 /* ----- Media Queries ----*/
@@ -576,13 +494,6 @@ button:focus,
     -ms-flex-direction: column;
     flex-direction: column;
   }
-
-  /* .account-section-feature.top {
-    border-bottom: 1px solid rgb(223, 99, 54);
-  }
-  .account-section-feature.bottom {
-    border-bottom: 1px solid rgb(223, 99, 54);
-  } */
 
   .account-section-feature .feature-title {
     margin-bottom: 0;
@@ -686,8 +597,6 @@ button:focus,
   }
 
   .topbar-responsive .menu .topbar-responsive-button {
-    /* color: #ffffff; */
-    /* border-color: #ffffff; */
     border-radius: 5000px;
     transition: color 0.15s ease-in, border-color 0.15s ease-in;
   }
@@ -704,11 +613,6 @@ button:focus,
     }
   }
 
-  /* .top-bar,
-  .top-bar ul {
-    background-color: transparent;
-  } */
-
   @media screen and (max-width: 39.9375em) {
     .topbar-responsive {
       padding: 0.75rem;
@@ -720,7 +624,6 @@ button:focus,
     .topbar-responsive .top-bar-title span {
       position: absolute;
       right: 0;
-      /* border: 1px solid rgb(223, 99, 54); */
       border-radius: 5px;
       padding: 0.25rem 0.45rem;
       top: 50%;
@@ -826,18 +729,10 @@ button:focus,
   text-decoration: none;
 }
 
-/* #logout {
-  background-color: transparent;
-} */
-
 #logout:hover {
   text-decoration: underline solid black 5px;
   cursor: pointer;
 }
-
-/* #login {
-  background-color: transparent;
-} */
 
 #login:hover {
   text-decoration: underline solid black 5px;
@@ -857,7 +752,7 @@ a:hover {
     margin-top: 0px;
     padding-top: 0px;
   }
-  .topbar-responsive{
+  .topbar-responsive {
     margin-bottom: 50px;
     padding-right: 2rem;
   }
@@ -888,7 +783,19 @@ a:hover {
     font-size: 12px;
   }
   #footer-one p {
-    font-size: 5px;
+    font-size: 8px;
+  }
+
+  #chargeCard {
+    font-size: 10px;
+  }
+
+  #makepayment {
+    font-size: 10px;
+  }
+
+  .transaction-history {
+    font-size: 10px !important;
   }
 }
 
